@@ -1,5 +1,4 @@
 body {
-    background-color: #14131A;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -45,4 +44,39 @@ header {
 }
 .film_logo {
     margin-bottom: 40px;
+}
+.button {
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button-group {
+    margin-top: 70px;
+}
+.button_primary {
+    background-color: #FFFFFF;
+    color: #8D0019;
+    ;
+}
+.button_text {
+    font-size: 14px;
+    line-height: 16px;  
+    margin-left: 10px;
+}
+.button_icon, .button_text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.button_link {
+    color: #fff;
+}
+.venom {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blood {
+    background: url("../img/blood.png") no-repeat top right, #14131A url("../img/image.jpg") no-repeat center center /100%;
 }
